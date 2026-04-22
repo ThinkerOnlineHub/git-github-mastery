@@ -69,7 +69,41 @@ A simple folder becomes a repo after running:
 
 ```bash
 git init
+```
+---
+📸 What is a Commit?
 
+A commit is a snapshot of your project at a specific point in time.
 
-```bash
+👉 Think like:
+
+You take a photo of your code → that is a commit
+
+Each commit:
+
+- Has a message
+- Stores changes
+- Helps track history
+
+---
+
+🔄 Git Workflow (Important)
+
+```Working Directory → Staging Area → Commit```
+
+Working Directory → where you edit files
+Staging Area → files ready to be saved
+Commit → saved snapshot
+
+---
+
+🔧 Commands Practiced
+```
 git init
+git status
+git add .
+git commit -m "Initial commit"
+```
+
+---
+
